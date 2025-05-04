@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    font-style: normal;
+}
+
+body {
+    color: #e0e0e0;
+    background-color: #121212;
+    min-height: 100%;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #b0b0b0;
+}
+
+
+
+
+
