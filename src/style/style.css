@@ -892,6 +892,12 @@ header {
   color: #ffffff;
 }
 
+@media (min-width:320px){
+  .header-content{
+    backdrop-filter: blur(10px);
+  }
+}
+
 @media (max-width:1441px){
   .header-content{
     backdrop-filter: blur(10px);
