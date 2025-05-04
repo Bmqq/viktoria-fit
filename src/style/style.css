@@ -13,7 +13,7 @@ header {
   margin-top: 40px;
   background: none;
   border: 1px #af89e4 solid;
-  backdrop-filter: blur(10px);
+  backdrop-filter:  blur(10px)!important;
   border-radius: 30px;
   display: flex;
   width: 100%;
@@ -893,12 +893,18 @@ header {
 }
 
 @media (max-width: 1024px) {
+  .header-content{
+    backdrop-filter: blur(10px);
+  }
   .testimonial-card {
     flex: 0 0 calc(50% - 15px);
   }
 }
 
 @media (max-width: 768px) {
+  .header-content{
+    backdrop-filter: blur(10px);
+  }
   .Testimonials {
     padding: 70px 0;
   }
@@ -940,6 +946,9 @@ header {
 
 
 @media (max-width: 768px) {
+  .header-content{
+    backdrop-filter: blur(10px);
+  }
 
 
   .question-box {
@@ -1048,6 +1057,9 @@ header {
 
 
 @media (max-width: 992px) {
+  .header-content{
+    backdrop-filter: blur(10px);
+  }
   .footer-top {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1062,6 +1074,9 @@ header {
 }
 
 @media (max-width: 768px) {
+  .header-content{
+    backdrop-filter: blur(10px);
+  }
   .main-footer {
     padding: 50px 0 30px;
   }
